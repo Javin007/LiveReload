@@ -1,7 +1,7 @@
 LiveReload v1.0  
 Copyright (C) 2015 Javin-Inc.com
 
-Author: Javin
+Author: Javin  
 Contact: javin@javin-inc.com
 
 This program is distributed in the hope that it will be useful,
