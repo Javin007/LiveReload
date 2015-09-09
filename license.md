@@ -1,4 +1,4 @@
-LiveReload v1.0 
+LiveReload v1.0  
 Copyright (C) 2015 Javin-Inc.com
 
 Author: Javin
