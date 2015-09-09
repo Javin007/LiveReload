@@ -10,12 +10,12 @@ The “LiveReload” script is very simple.  By adding a short setup script to t
 Setup is simple.  In the main page (often index.html) add the following script to the <HEAD> tag before anything else.  (This allows it to work even if there are errors elsewhere in the page.)  
     ```javascript
     <!-- REMOVE the following when done developing. -->
-      <script src = "js/liveReload.js"></script>
-      <script>
-      LiveReload.setFiles(["index.html",
-                           "js/test.js",
-                           "css/test.css"]);
-      </script>
+        <script src = "js/liveReload.js"></script>
+        <script>
+        LiveReload.setFiles(["index.html",
+                             "js/test.js",
+                             "css/test.css"]);
+        </script>
     <!-- ------------------------------------------ -->
     ```
 Note that you will want to update the location of the “liveReload” file, and make sure to use the “.min.js” version if that is the one you prefer to use.  
