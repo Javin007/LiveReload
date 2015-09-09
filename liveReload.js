@@ -120,7 +120,7 @@ var LiveReload = LiveReload || (function(){
 				for (var intCount = 0; intCount < strCheckFiles.length; intCount++) {
 					checkPage(intCount);
 				};
-			}, 500);
+			}, 1000);
 	
 		}
 	
