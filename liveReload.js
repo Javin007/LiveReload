@@ -55,6 +55,9 @@ var LiveReload = LiveReload || (function(){
 		
 				//Request the monitored page.
 				xmlhttp.open("GET",strCheckFiles[index],true);
+
+				//Override the mime type since we're just using it for comparison and not trying to parse it.
+				xmlhttp.overrideMimeType("text/plain; charset=x-user-defined");
 				
 				//Fire off the send request.
 				try {
@@ -85,8 +88,7 @@ var LiveReload = LiveReload || (function(){
 				
 				//Override the mime type since we're just using it for comparison and not trying to parse it.
 				xmlhttp.overrideMimeType("text/plain; charset=x-user-defined");
-				xmlhttp.responseType = "string";
-				
+
 				//Fire off the send request.
 				try {
 					xmlhttp.send();
