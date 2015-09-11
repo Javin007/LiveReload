@@ -7,7 +7,7 @@ The easiest way to prevent this is to keep the developer’s “mind” within t
 The “LiveReload” script is very simple.  By adding a short setup script to the beginning of the main page (often index.html ) you can specify which files the script should monitor.  The script will then simply watch those files for any updates/changes to them, and when it detects a change in any of the monitored files, it will refresh the main page.  The functionality is so simple, I’m surprised I wasn’t able to find anything like this online already (perhaps my Google-fu is weak).  But the end result is a far less stressful, and productive development environment.  While I initially designed this for myself to aid in Javascript development, I soon realized it would be useful for those that work solely in HTML and CSS as well, regardless of IDE.  
 
 ## Usage: 
-Setup is simple.  In the main page (often index.html) add the following script to the <HEAD> tag before anything else.  (This allows it to work even if there are errors elsewhere in the page.)  
+Setup is simple.  In the main page (often index.html) add the following script to the ``<HEAD>`` tag before anything else.  (This allows it to work even if there are errors elsewhere in the page.)  
 
 ```javascript
     <!-- REMOVE the following when done developing. -->
