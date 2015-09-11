@@ -21,5 +21,7 @@ Setup is simple.  In the main page (often index.html) add the following script t
 ```
     
 Note that you will want to update the location of the “liveReload” file, and make sure to use the “.min.js” version if that is the one you prefer to use.  
+
 After the script element that loads the script, call the “setFiles()” method, passing an array of the files you wish to monitor in a separate script tag.  
+
 Because this tool will load each file being monitored every second, it is definitely not recommended that this be used in production systems due to the sheer load it will put on the servers.  It is best used in local environment.
